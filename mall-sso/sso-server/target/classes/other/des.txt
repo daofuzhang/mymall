@@ -1,0 +1,4 @@
+实现UserDetailsService；
+配置安全配置（继承WebSecurityConfigurerAdapter）
+配置认证服务器（继承AuthorizationServerConfigurerAdapter）
+配置资源服务器（继承ResourceServerConfigurerAdapter）

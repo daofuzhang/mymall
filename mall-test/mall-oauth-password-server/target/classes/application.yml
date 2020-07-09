@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  
+security:  oauth2:    client:      client-secret: client-a-secret
+      client-id: client-a
+      authorized-grant-types:      - password
