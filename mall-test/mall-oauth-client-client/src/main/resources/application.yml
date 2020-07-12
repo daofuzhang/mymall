@@ -1,1 +1,2 @@
-https://www.cnblogs.com/hellxz/p/12041588.html
+server:
+  port: 9001

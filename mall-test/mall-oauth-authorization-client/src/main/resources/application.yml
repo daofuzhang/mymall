@@ -1,0 +1,3 @@
+server:
+  port: 8081
+#https://www.cnblogs.com/hellxz/p/oauth2_oauthcode_pattern.html

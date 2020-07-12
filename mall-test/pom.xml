@@ -15,5 +15,6 @@
   	<module>mall-oauth-implicit-server</module>
   	<module>mall-oauth-password-client</module>
   	<module>mall-oauth-client-client</module>
+  	<module>mall-oauth-authorization-client</module>
   </modules>
 </project>
