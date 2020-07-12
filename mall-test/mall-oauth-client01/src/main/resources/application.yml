@@ -1,0 +1,11 @@
+#不加OAUTH2SESSION ，授权成功后还是会跳转到登陆页
+server:
+  port: 8081
+  servlet:    session:      cookie:        name: OAUTH2SESSION
+  
+security:  oauth2:    client:      client-id: client-authorization_01
+      client-secret: client-authorization-secret
+      access-token-uri: http://localhost:8080/oauth/token
+      user-authorization-uri: http://localhost:8080/oauth/authorize
+    resource:      user-info-uri: http://localhost:8080/user
+      token-info-uri: http://localhost:8080/oauth/check_token

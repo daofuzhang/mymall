@@ -16,5 +16,8 @@
   	<module>mall-oauth-password-client</module>
   	<module>mall-oauth-client-client</module>
   	<module>mall-oauth-authorization-client</module>
+  	<module>mall-oauth-server</module>
+  	<module>mall-oauth-client01</module>
+  	<module>mall-oauth-client02</module>
   </modules>
 </project>

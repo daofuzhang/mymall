@@ -32,7 +32,7 @@ public class AuthorizationConfig extends AuthorizationServerConfigurerAdapter {
                     .authorizedGrantTypes("authorization_code") //授权模式标识
                     .scopes("read_user_info") //作用域
                     .resourceIds("resource1") //资源id
-                    .redirectUris("http://localhost:9001/callback"); //回调地址
+                    .redirectUris("http://localhost:8080/login"); //回调地址
         // @formatter: on
     }
 }
